@@ -39,3 +39,21 @@ Maintainers can create backups and restore from a partial backup or a full backu
 
 **UC-12: Administrative Privileges**
 Administrators shall be able to create, update, and delete courses, assign principle lecturers, and prerequisites for a course.  They are also able to calculate the statistics of a course, and calculate the number of passed students. They can view information of students and lecturers as well
+
+## Quality Attributes
+
+**QA-1: Privacy**
+The system shall protect the user’s privacy, and prevent students from viewing grades of other people. 
+
+**QA-2: Security**
+The system should be secure and only allow authorized users to view and modify data that belongs to them, and modify how much information others can see.
+
+**QA-3: Availability**
+The system should almost always be available. Whenever there is planned downtime, it should be during low-intensity hours and cannot be for more than 4 hours/month
+
+**QA-4: User Friendliness**
+The system should be friendly, have multiple language support, have a single login for all content, and have a consistent, easy to understand, and descriptive UI
+
+**QA-5: Interoperability**
+The system should be highly interoperable, and allow the import of BOZ roster information, export calendars and interoperate with the secondary university systems
+
