@@ -27,6 +27,6 @@
 
 ### Iteration Goal
 
-Structure the system
+Choose a front end structure to serve our users
 
 ## Step 3
