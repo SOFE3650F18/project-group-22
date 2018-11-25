@@ -30,3 +30,7 @@
 Choose a front end structure to serve our users
 
 ## Step 3
+###Elements to refine
+For our goal, we will be refining our web server
+
+##Step 4
