@@ -36,3 +36,8 @@ Choose a front end structure to serve our users
 For our goal, we will be refining is the CMS system
 
 ## Step 4
+
+| Design Decisions and Location | Rationale and Assumptions |
+|------------------------------|--------------------------|
+| Create a Web application | We decided that this would be best since users can access the CMS from any device|
+| 3 Tier Framwork         | We will separate the client, server and database into three separate tiers |
