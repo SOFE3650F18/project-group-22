@@ -41,3 +41,6 @@ For our goal, we will be refining is the CMS system
 |------------------------------|--------------------------|
 | Create a Web application | We decided that this would be best since users can access the CMS from any device|
 | 3 Tier Framwork         | We will separate the client, server and database into three separate tiers |
+
+## Step 5
+We do not have any architectural elements to instantiate in this iteration
