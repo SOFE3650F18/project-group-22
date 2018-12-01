@@ -34,7 +34,7 @@ In this iteration, we are refining the backend of the CMS system
 
 ## Step 5
 
-| Element | Responsabilities | Properties |
-|---------|------------------|------------|
-| AWS Connector | Communicates with our AWS server in order to retrieve data| |
-| Event Controller | Process events that are received from the user devices | |
+| Element | Responsabilities |
+|---------|------------------|
+| AWS Connector | Communicates with our AWS server in order to retrieve data|
+| Event Controller | Process events that are received from the user devices |
