@@ -29,5 +29,7 @@ In this iteration, we are refining the backend of the CMS system
 
 | Design Decisions and Location | Rationale and Assumptions |
 |------------------------------|--------------------------|
+| PostGreSQL | PostGreSQL is a powerful database management systems that an emphasis on extendability and standards compliance, which makes it a good choice for a system that is being used in a regulated environment |
+| Amazon Web Services(AWS) | AWS allows us to host a server without having to implement the infastructure into the university. By using AWS, we can have our server set up for us, and we dont have to worry about scaling our database in the future, because we can just pay for more space. |
 
 ## Step 5
