@@ -22,6 +22,8 @@ The goal of this iteration is to set up the server and database framework
 
 ### Elements to refine
 
+In this iteration, we are refining the backend of the CMS system
+
 
 ## Step 4
 
