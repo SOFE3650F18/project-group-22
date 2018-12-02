@@ -12,6 +12,7 @@
 * UC-7
 * UC-8
 * UC-10
+* QA-3
 
 ## Step 2: Iteration Goal
 
