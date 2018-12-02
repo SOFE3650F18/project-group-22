@@ -34,3 +34,4 @@ The elements we will refine are the login pages, the handling of sensitive data 
 | Authentication Portal | Checks to see to if the username and password combination is correct, and to see if the account exists |
 
 ## Step 6
+![](https://github.com/SOFE3650F18/project-group-22/blob/master/Iteration%203/Drawing2.png)
