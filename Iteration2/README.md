@@ -38,3 +38,5 @@ In this iteration, we are refining the backend of the CMS system
 |---------|------------------|
 | AWS Connector | Communicates with our AWS server in order to retrieve data|
 | Event Controller | Process events that are received from the user devices |
+
+![](https://github.com/SOFE3650F18/project-group-22/blob/master/Iteration2/Drawing1.png)
