@@ -15,7 +15,7 @@
 
 ## Step 2: Iteration Goal
 
-The goal of this iteration is to set up the server and database framework
+The goal of this iteration is to set up the server and database framework in order to fulfill the remaining use cases that have not yet been addressed
 
 ## Step 3
 
