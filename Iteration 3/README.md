@@ -27,7 +27,10 @@ The elements we will refine are the login pages, the handling of sensitive data 
 
 ## Step 5
 
-| Element | Responsabilities |
+| Element | Responsibilities |
+|---------|------------------|
+| Authentication Portal | Checks to see to if the username and password combination is correct, and to see if the account exists |
+
 
 
 
