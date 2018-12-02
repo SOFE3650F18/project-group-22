@@ -2,8 +2,8 @@
 
 ## Step 1
 
-QA-2
-QA-4
+* QA-2
+* QA-4
 
 ## Step 2
 
