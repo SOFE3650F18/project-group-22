@@ -24,6 +24,7 @@ The elements that we want to decompose is the entire front-end. We want to make 
 
 | Design Decision | Rationale |
 | --------------- | --------- |
+| Locally hosted web server | By using a locally hosted web server, we can create backups of our entire system periodically. In the case that our system goes down, we can then utilize that backup so the information can still be accessed and viewed during downtime. |
 
 ## Step 6: Sketch Design Decisions
 
