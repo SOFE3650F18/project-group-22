@@ -24,6 +24,7 @@ The element that we want to decompose is the security of our system.
 
 | Design Decision | Rationale |
 | --------------- | --------- |
+| Seperate authenicatio server | By having a local server to handle authentication, we can implement our own encryption algorithm, increasing security, as well as speeding up authentication time by having our local servers communicate with one another |
 
 ## Step 6: Sketch Design Decisions
 
