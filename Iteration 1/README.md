@@ -31,3 +31,4 @@ The element to refine in this case, is the entire system since this a greenfield
 
 ## Step 6: Sketch Design Decisions
 
+## Step 7: Update Kanban
