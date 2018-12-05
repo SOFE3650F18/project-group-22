@@ -6,8 +6,10 @@ The goal of this iteration is to refine the security of our system
 
 The selected drivers are:
 
+* UC-9
 * QA-2
-
+* CON-3
+* CON-4
 
 ## Step 3: Elements to Decompose
 
@@ -15,16 +17,16 @@ The element that we want to decompose is the security of our system.
 
 ## Step 4: Design Concept
 
-| Design Decisions | Rationale |
-| ---------------- | --------- |
-| Use a ID system | By utilizing a unique ID for every user in the system, we can ensure we know who is accessing the database and making changes, as well as hiding the data that they do not need to see based on their ID |
-
+| Design Decision              | Rationale                                                                                                                                                                                                                  |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Authentication | We will be using the school's authentication system for this application. It allows the users to be tied to the school's secondary database, as well as ensuring that new users can access the CMS application. Storage of the user will still be done in the CMS database for collection of information (i.e. grades).  |
+|
 
 ## Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
-| Design Decision | Rationale |
-| --------------- | --------- |
-| Seperate authenicatio server | By having a local server to handle authentication, we can implement our own encryption algorithm, increasing security, as well as speeding up authentication time by having our local servers communicate with one another |
+| Design Decisions | Rationale   |
+| ---------------- | ----------- |
+| Regular Backups | Using the AWS platform we can create regularly scheduled backups of the data. This ensures that we never lose information in case of hardware failure or corruption |
 
 ## Step 6: Sketch Design Decisions
 

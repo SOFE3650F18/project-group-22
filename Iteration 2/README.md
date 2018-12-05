@@ -16,16 +16,21 @@ The elements that we want to decompose is the entire front-end. We want to make 
 
 ## Step 4: Design Concept
 
-| Design Decisions | Rationale |
-| ---------------- | --------- |
-| Use an MVC design pattern | Using this design pattern was decided since it allows us to update the UI if something in the database changes. For this we decided to use Angular as our web framework. This also means that we can help support other browsers using its built-in tools such as polyfills </br> **Discarded Alternatives**: Another option was using React.js, but we wanted to make sure that we would minimize the time ensuring that this application works on other browsers|
+| Design Decisions          | Rationale                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Use an MVC design pattern | Using this design pattern was decided since it allows us to update the UI if something in the database changes. For this we decided to use Angular as our web framework. This also means that we can help support other browsers using its built-in tools such as polyfills </br> **Discarded Alternatives**: Another option was using React.js, but we wanted to make sure that we would minimize the time ensuring that this application works on other browsers |
 
 ## Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
-| Design Decision | Rationale |
-| --------------- | --------- |
-| Locally hosted web server | By using a locally hosted web server, we can create backups of our entire system periodically. In the case that our system goes down, we can then utilize that backup so the information can still be accessed and viewed during downtime. |
+| Design Decision     | Rationale                                                                                                                                                                                          |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Login Page          | The users (students and lecturers) will have to sign into a login page before they can access the rest of the application.                                                                         |
+| Course organization | The homepage after logging in will require a single click to access the course, a second click to access a subfolder containg content such as lectures, and then a final click to open the lecture |
 
 ## Step 6: Sketch Design Decisions
+
+* Login sequence diagram
+* Component Diagram for frontend
+* Deployment Diagram
 
 ## Step 7: Update Kanban
