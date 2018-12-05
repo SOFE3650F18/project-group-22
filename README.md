@@ -1,11 +1,13 @@
-# project-group-22
+# ADD Group 22
+
 project-group-22 created by GitHub Classroom
 
+## Inputs
 
-## Use Cases
+### Use Cases
 
 **UC-1: Display Course Information**
-The system should display static and dynamic course information. Lecturers or Administrators can store, modify or delete the information as needed. Lecturers can also view other courses information. 
+The system should display static and dynamic course information. Lecturers or Administrators can store, modify or delete the information as needed. Lecturers can also view other courses information.
 
 **UC-2: Collect User Information**
 The system should collect information about the students and lecturers. A user may edit their personal information.
@@ -35,15 +37,15 @@ Users should be able to sign in with a password. They can also edit, or go throu
 Lecturers should be able to upload and prepare lecture content. They can also prepare schedules and upload course material. Roster information can be imported into the course. Maintainers can limit the space for a given course
 
 **UC-11: Backups**
-Maintainers can create backups and restore from a partial backup or a full backup. The system also syncs with secondary university systems. 
+Maintainers can create backups and restore from a partial backup or a full backup. The system also syncs with secondary university systems.
 
 **UC-12: Administrative Privileges**
-Administrators shall be able to create, update, and delete courses, assign principle lecturers, and prerequisites for a course.  They are also able to calculate the statistics of a course, and calculate the number of passed students. They can view information of students and lecturers as well
+Administrators shall be able to create, update, and delete courses, assign principle lecturers, and prerequisites for a course. They are also able to calculate the statistics of a course, and calculate the number of passed students. They can view information of students and lecturers as well
 
-## Quality Attributes
+### Quality Attributes
 
 **QA-1: Privacy**
-The system shall protect the user’s privacy, and prevent students from viewing grades of other people. 
+The system shall protect the user’s privacy, and prevent students from viewing grades of other people.
 
 **QA-2: Security**
 The system should be secure and only allow authorized users to view and modify data that belongs to them, and modify how much information others can see.
@@ -57,3 +59,25 @@ The system should be friendly, have multiple language support, have a single log
 **QA-5: Interoperability**
 The system should be highly interoperable, and allow the import of BOZ roster information, export calendars and interoperate with the secondary university systems
 
+### Constraints
+
+**CON-1: Web server**
+The system must be accessed using a web server, so that it is easily accessible to everyone
+
+**CON-2: Little Downtime**
+There should only be downtime of 4 hours/month
+
+**CON-3: Simple Interface**
+There should only be a maximum of 3 clicks
+
+**CON-4: Single Login**
+The users should only have to login on a interface
+
+## Step 1: Review Inputs
+
+| Category                         | Description                                                                                                                                                                                            |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Design Purpose                   | The purpose is to design a functional CMS system                                                                                                                                                       |
+| Primary Funcational Requirements | From the use cases above, we have selected: </br> UC-1 - Core functionality </br> UC-5 - Core functionality</br> UC-7 - Core functionality </br> UC-9 - Supports QA-2 </br> UC-10 - Core functionality |
+| QA Scenerios                     | QA-1: M, L </br> QA-2: H, L </br> QA-3: H,H </br> QA-4: H,H </br> QA-5: L, M </br> From the above list QA-2, QA-3, and QA-4 are selected                                                               |
+| Constraints                      | We have selected all of the constraints as drivers                                                                                                                                                     |

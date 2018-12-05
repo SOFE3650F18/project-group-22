@@ -1,37 +1,39 @@
 # Iteration 3
 
-## Step 1
+## Step 2: Iteration Goal and Select Drivers
 
-* UC-2
+The goal of this iteration is to refine the security of our system
+
+The selected drivers are:
+
 * UC-9
-* UC-12
 * QA-2
-* QA-4
+* CON-3
+* CON-4
 
-## Step 2
+## Step 3: Elements to Decompose
 
-Our goal for this iteration is to increase the security, relalibilty, and user friendliness of the CMS
+The element that we want to decompose is the security of our system.
 
-## Step 3
+## Step 4: Design Concept
 
-### Elements to refine
+| Design Decision              | Rationale                                                                                                                                                                                                                  |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Authentication | We will be using the school's authentication system for this application. It allows the users to be tied to the school's secondary database, as well as ensuring that new users can access the CMS application. Storage of the user will still be done in the CMS database for collection of information (i.e. grades).  |
+|
 
-The elements we need to refine for this iteration are the security of the frontend, as well as the user friendiness of the user interface.
+## Step 5: Instantiate Architectural Elements, Allocate Responsibilities, and Define Interfaces
 
-The elements we will refine are the login pages, the handling of sensitive data and user permissions
+| Design Decisions | Rationale   |
+| ---------------- | ----------- |
+| Regular Backups | Using the AWS platform we can create regularly scheduled backups of the data. This ensures that we never lose information in case of hardware failure or corruption |
 
-## Step 4
-| Design Decisions and Location | Rationale and Assumptions                                                                                                                                                                                                                                                                                                                               |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Authentification              | By using a school login or a third party authentification service, we can assign each student and instructor their own account with permissions set for each of them so they can access the services they need without affecting anyone else's data when doing so. This also protects against non students accessing the database and changing anything |
-| Permissons                    | By using a permissions system, we can make it so that students are only bale to view their own grades, while instructors can view the whole class, as well and change grades as they wish                                                                                                                                                               |
-| Backup web server             | By hosting a backup server that pulls data from the AWS server periodically, we can have a snapshot of the server in the case it goes down. Any changes would have to be queued, but the server would still be able to be checked for data if the server goes down at an important juncture during the school year                                      |
+## Step 6: Sketch Design Decisions
 
-## Step 5
+![sketch](sketch.png)
 
-| Element               | Responsibilities                                                                                       |
-| --------------------- | ------------------------------------------------------------------------------------------------------ |
-| Authentication Portal | Checks to see to if the username and password combination is correct, and to see if the account exists |
+An updated deployment diagram with our new design decisions
 
-## Step 6
-![](https://github.com/SOFE3650F18/project-group-22/blob/master/Iteration%203/Drawing2.png)
+## Step 7: Update Kanban
+
+![kanban](kanban.png)
