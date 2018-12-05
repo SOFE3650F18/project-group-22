@@ -6,6 +6,8 @@ The goal of this iteration is to refine the user interface
 
 The selected drivers are:
 
+* UC-5
+* UC-10
 * QA-4
 * CON-3
 * CON-4
@@ -29,8 +31,12 @@ The elements that we want to decompose is the entire front-end. We want to make 
 
 ## Step 6: Sketch Design Decisions
 
-* Login sequence diagram
-* Component Diagram for frontend
-* Deployment Diagram
+![login sequence diagram](./login.png)
+
+The above diagram depicts a login sequence diagram showing the process of logging into the CMS
+
+![course sequence diagram](accessCourse.png)
+
+The above diagram depicts the process that Angular will follow when a user wants to select a course. There is a similar diagram when accessing any page in the application
 
 ## Step 7: Update Kanban
