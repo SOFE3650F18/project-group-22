@@ -1,6 +1,6 @@
 # Team Reflection
 
-## Jamiesion
+## Jamieson
 
 1. Commitment - 5.0
 2. Communication - 4.5
