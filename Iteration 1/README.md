@@ -40,3 +40,5 @@ A component digram that depicts the main components of the CMS
 Deployment Diagram that depicts the 3 layers
 
 ## Step 7: Update Kanban
+
+![kanban](kanban.png)

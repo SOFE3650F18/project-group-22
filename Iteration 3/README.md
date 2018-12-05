@@ -30,9 +30,10 @@ The element that we want to decompose is the security of our system.
 
 ## Step 6: Sketch Design Decisions
 
-![](https://github.com/SOFE3650F18/project-group-22/blob/redo/Iteration%203/Untitled%20Diagram.png)
+![sketch](sketch.png)
 
 An updated deployment diagram with our new design decisions
 
-
 ## Step 7: Update Kanban
+
+![kanban](kanban.png)
