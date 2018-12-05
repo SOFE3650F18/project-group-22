@@ -30,4 +30,6 @@ The element that we want to decompose is the security of our system.
 
 ## Step 6: Sketch Design Decisions
 
+
+
 ## Step 7: Update Kanban
